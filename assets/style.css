@@ -32,8 +32,11 @@ header{
 }
 
 .header-top{
-    width: 100%;
     background-color: #69BF14;
+}
+
+.header-top-wrapper{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,10 +62,12 @@ header{
     margin: 0 10px 0 10px;
 }
 
-
 .header-bottom{
-    width: 100%;
     background-color: #FEFEFE;
+}
+
+.header-bottom-wrapper{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,14 +102,59 @@ header{
     color: #69BF14;
 }
 
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.slogan{
+    width: 100%;
+    background-image: url("img/avada-movers-homeherobackground-final.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.slogan-wrapper h1{
+    font-size: 64px;
+    color: #262727;
+    font-weight: bold;
+}
+
+.slogan-wrapper h4{
+    font-size: 16px;
+    color: #AFAEAE;
+    font-weight: bold;
+}
+
+.slogan .slogan-quote{
+    width: 100%;
+    align-self: baseline;
+    border-radius: 0;
+    padding: 50px;
+}
+
+.slogan .slogan-quote i{
+    margin-right: 5px;
+}
+
 .button{
     color: #FEFEFE;
     background-color: #1975C0;
     padding: 13px 29px;
     border-radius: 25px;
     border-color: #FEFEFE;
+    transition: all .2s;
 }
 
 .button:hover{
-    background-color: #1B74C3;
+    color: white;
+    background-color: #3294e2;
 }
