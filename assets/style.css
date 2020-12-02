@@ -18,7 +18,7 @@ a{
 }
 
 body{
-    height: 100vh;
+
 }
 
 .container{
@@ -164,18 +164,87 @@ header{
     font-size: 64px;
     color: #69BF14;
     font-weight: bold;
-    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
 }
 
 .headache-text h4{
     font-size: 16px;
     color: #AFAEAE;
     font-weight: bold;
-    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
 }
 
 .headache-text .headache-button{
     margin: 14px auto 0 auto;
+}
+
+.solution{
+    background-color: #FEFEFE;
+    padding-top: 7%;
+    padding-right: 30px;
+    padding-bottom: 7%;
+    padding-left: 30px;
+}
+
+.solution-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution-wrapper .solution-title h1{
+    font-size: 47;
+    color: #69BF14;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.solution-wrapper .solution-title h4{
+    font-size: 16px;
+    color: #AFAEAE;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.solution-wrapper .solution-options{
+    display: flex;
+    justify-content: space-around;
+}
+
+.solution-wrapper .solution-options .solution-option{
+    background-color: #F2F5F8;
+    padding: 10px;
+}
+
+.solution-wrapper .solution-options .solution-option .solution-option-img img{
+    width: 100%;
+}
+
+.solution-wrapper .solution-options .solution-option .solution-option-text{
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.solution-option-text .solution-option-title{
+    margin-bottom: 20px;
+}
+
+.solution-option-text .solution-option-title span{
+    font-weight: bold;
+    font-size: 27px;
+    color: #007cba;
+}
+
+.solution-option-text .solution-option-content{
+    margin-bottom: 20px;
+}
+
+.solution-option-text .solution-option-content span{
+    color: #585858;
+    font-size: 16px;
 }
 
 .button{
