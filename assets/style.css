@@ -104,7 +104,7 @@ header{
 
 .wrapper{
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .slogan{
@@ -143,6 +143,39 @@ header{
 
 .slogan .slogan-quote i{
     margin-right: 5px;
+}
+
+.headache{
+    background-color: #E9E9E9;
+    padding-top: 8%;
+    padding-right: 30px;
+    padding-bottom: 7%;
+    padding-left: 30px;
+}
+
+.headache-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.headache-text h1{
+    font-size: 64px;
+    color: #69BF14;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+}
+
+.headache-text h4{
+    font-size: 16px;
+    color: #AFAEAE;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+}
+
+.headache-text .headache-button{
+    margin: 14px auto 0 auto;
 }
 
 .button{
