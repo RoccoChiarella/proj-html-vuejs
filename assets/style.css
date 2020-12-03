@@ -151,13 +151,23 @@ header{
     padding-right: 30px;
     padding-bottom: 7%;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headache-text{
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+}
+
+.headache h4{
+    font-size: 16px;
+    color: #AAAAAA;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .headache-text h1{
@@ -167,15 +177,15 @@ header{
     margin-bottom: 20px;
 }
 
-.headache-text h4{
+.headache-text p{
     font-size: 16px;
-    color: #AFAEAE;
+    color: #585858;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .headache-text .headache-button{
-    margin: 14px auto 0 auto;
+    margin-top: 14px;
 }
 
 .solution{
@@ -241,7 +251,7 @@ header{
 }
 
 .solution-option-text .solution-option-content{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .solution-option-text .solution-option-content p{
@@ -360,7 +370,7 @@ header{
 .testimonials-wrapper .testimonials-comments{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .testimonials-wrapper .testimonials-comments .testimonials-comment{
@@ -411,6 +421,47 @@ header{
 
 .testimonials-button span{
     margin-bottom: 20px;
+}
+
+.request{
+    width: 100%;
+    background-image: url("img/avada-movers-request-quote-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+    padding-right: 30px;
+    padding-bottom: 7%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 15px solid #6ABF16;
+}
+
+.request-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-text h1{
+    font-size: 47px;
+    color: #69BF14;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.request-text p{
+    font-size: 16px;
+    color: #585858;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.request-text .request-button{
+    margin-top: 14px;
 }
 
 .button{
