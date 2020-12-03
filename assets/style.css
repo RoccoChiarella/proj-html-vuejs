@@ -146,7 +146,7 @@ header{
 }
 
 .headache{
-    background-color: #E9E9E9;
+    background-image: linear-gradient(#F1F5F9, #FAFCFE);
     padding-top: 8%;
     padding-right: 30px;
     padding-bottom: 7%;
@@ -213,7 +213,8 @@ header{
 
 .solution-wrapper .solution-options .solution-option{
     background-color: #F2F5F8;
-    padding: 10px;
+    padding: 20px;
+    margin: 0 10px;
 }
 
 .solution-wrapper .solution-options .solution-option .solution-option-img img{
@@ -226,6 +227,7 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .solution-option-text .solution-option-title{
@@ -242,9 +244,13 @@ header{
     margin-bottom: 20px;
 }
 
-.solution-option-text .solution-option-content span{
+.solution-option-text .solution-option-content p{
     color: #585858;
     font-size: 16px;
+}
+
+.solution-option-text .solution-option-button{
+    margin-bottom: 20px;
 }
 
 .button{
