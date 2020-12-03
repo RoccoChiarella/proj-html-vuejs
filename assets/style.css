@@ -193,7 +193,7 @@ header{
 }
 
 .solution-wrapper .solution-title h1{
-    font-size: 47;
+    font-size: 47px;
     color: #69BF14;
     font-weight: bold;
     margin-bottom: 20px;
@@ -325,6 +325,93 @@ header{
     margin-bottom: 20px;
 }
 
+.testimonials{
+    width: 100%;
+    background-image: url("img/avada-movers-testimonial-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+    padding-right: 30px;
+    padding-bottom: 7%;
+    padding-left: 30px;
+}
+
+.testimonials-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-wrapper .testimonials-title h1{
+    font-size: 47px;
+    color: #69BF14;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonials-wrapper .testimonials-title h4{
+    font-size: 16px;
+    color: #AFAEAE;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonials-wrapper .testimonials-comments{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.testimonials-wrapper .testimonials-comments .testimonials-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.testimonials-wrapper .testimonials-comments .testimonials-comment .testimonials-comment-img{
+    height: 150px;
+}
+
+.testimonials-wrapper .testimonials-comments .testimonials-comment .testimonials-comment-img img{
+    height: 100%;
+    border-radius: 100%;
+}
+
+.testimonials-wrapper .testimonials-comments .testimonials-comment .testimonials-comment-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.testimonials-comment-text .testimonials-comment-title{
+    margin-bottom: 20px;
+}
+
+.testimonials-comment-text .testimonials-comment-title span{
+    font-weight: bold;
+    font-size: 27px;
+    color: #007cba;
+}
+
+.testimonials-comment-text .testimonials-comment-content{
+    margin-bottom: 20px;
+}
+
+.testimonials-comment-text .testimonials-comment-content p{
+    color: #585858;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testimonials-button span{
+    margin-bottom: 20px;
+}
 
 .button{
     color: #FEFEFE;
